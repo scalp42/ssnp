@@ -24,7 +24,6 @@ div.dataTables_paginate {
 table.table {
 	clear: both;
 	margin-bottom: 6px !important;
-	table-layout: fixed;
 }
 
 table.table thead .sorting,
@@ -47,10 +46,8 @@ table.dataTable th:active {
 	outline: none;
 }
 
-td.plugin_output {
-	text-overflow: ellipsis;
-	overflow: hidden;
-	word-wrap: break-word;
-	white-space: nowrap;
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 

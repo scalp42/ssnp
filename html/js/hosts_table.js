@@ -66,9 +66,9 @@ $(document).ready(function() {
 		}
 	});
 
-	var only_problems = $.getUrlVar('only_problems');
-	if(only_problems)
-		dataurl += '?only_problems=' + only_problems;
+	var query = window.location.href.slice(window.location.href.indexOf('?') + 1);
+	if(query)
+		dataurl += '?' + query;
 
 	refresh_data();
 });
