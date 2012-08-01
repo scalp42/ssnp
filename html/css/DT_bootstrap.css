@@ -51,3 +51,7 @@ table.dataTable th:active {
   margin-bottom: 10px;
 }
 
+td .no-margin {
+  margin: 0px;
+  padding: 0px;
+}
